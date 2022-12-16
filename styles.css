@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background: #000000;
+}
+
+audio {
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+#main .title {
+    font-family: "Audiowide", sans-serif;
+    letter-spacing: 20px;
+    color: #EBEBEB;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main #context {
+    font-family: "Share Tech Mono", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.alien{
+    font-family: "Share Tech Mono", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #EBEBEB;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.player{
+    font-family: "Share Tech Mono", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #EBEBEB;
+    text-align: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    height: 100px;
+    width: 350px;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-top: 100px;
+}
+
+.points .sides {
+    display: flex;
+    flex-direction: column;
+}
+
+.points .sides p {
+    font-family: "Share Tech Mono", sans-serif;
+    color: #EBEBEB;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.replay {
+    font-family: "Audiowide", sans-serif;
+    color: #EBEBEB;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 3px solid #EBEBEB;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+.play a {
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    color: #EBEBEB;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid #EBEBEB;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.play {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.play a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }

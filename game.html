@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Rock! Paper! Scissors!</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); </style>
+</head>
+
+<body>
+    <script src="scripts.js"></script>
+
+    <p class="alien">You're up against <script>
+        let race = ["Onux", "Sheerqok", "Linphe", "Ghetis", "Qur'en", "Photh", "Dhuusods", "Algoks", "Thruurcair", "Khat"];
+        let alien = race[(Math.random() * race.length) | 0];
+
+        document.write(alien);
+      </script> from <script>
+        let planets = ["Dosie EU77", "Anrore", "Ciri 861", "Chadus XOK", "Buturia", "Unvars", "Tharth NY9", "Kegrarth", "Tromia 22V"];
+        let planet = planets[(Math.random() * planets.length) | 0];
+
+        document.write(planet);
+      </script>!</p>
+
+    <p class="player">Choose your weapon!</p>
+    <div class="choice">
+        <button class="rock">ROCK</button>
+        <button class="paper">PAPER</button>
+        <button class="scissors">SCISSORS</button>
+    </div>
+
+    <div class="points">
+        <div class="sides">
+            <p class="human">Humans</p>
+            <p class="humancounter">0</p>
+        </div>
+        <div class="sides">
+          <p class="aliens">Aliens</p>
+          <p class="alienscounter">0</p>
+        </div>
+    </div>
+    <button class="replay">Play again!</button>
+
+</body>
+</html>

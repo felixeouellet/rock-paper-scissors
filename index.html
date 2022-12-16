@@ -2,10 +2,74 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Rock! Paper! Scissors!</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); </style>
 </head>
 
 <body>
-    <script src="script.js"></script>
+  <script src="scripts.js"></script>
+
+  <main ID="main">
+    <h1 class="title">human vs alien</h1>
+
+    <audio controls autoplay loop>
+      <source src="music.ogg" type="audio/ogg">
+      <source src="music.mp3" type="audio/mpeg">
+      No audio support.
+    </audio> 
+
+    <div ID="context">
+      <!--Context-->
+      <p class="desc animate" id="desc1">
+        The year is 2500… 
+      </p>
+      <p class="desc disappear" id="desc2">
+        The conquest of space took an enormous leap forward in the last 500 years
+      </p>
+      <p class="desc disappear" id="desc3">
+        The human race now consists of more than 100 trillion individuals, scattered across more than 10 thousand terrestrial bodies
+      </p>
+      <p class="desc disappear" id="desc4">
+        There are around a thousand extra-terrestrial documented species
+      </p>
+      <p class="desc disappear" id="desc5">
+        In the last hundred years, relations between species were strained
+      </p>
+      <p class="desc disappear" id="desc6">
+        Every populace was constantly on the verge of war
+      </p>
+      <p class="desc disappear" id="desc7">
+        In an attempt to minimize casualties, an alternative to physical combat was implemented…
+      </p>
+      <p class="desc disappear" id="desc8">
+        A game of ‘rock! paper! scissors!’
+      </p>
+      <p class="desc disappear" id="desc9">
+        Simple, but universal!
+      </p>
+      <p class="desc disappear" id="desc10">
+        You are the most promising human warrior…
+      </p>
+      <p class="desc disappear" id="desc11">
+        … Undefeated
+      </p>
+      <p class="desc disappear" id="desc12">
+        … And you’ve been sent to war
+      </p>
+      <p class="desc disappear" id="desc13">
+        The human race counts on you!
+      </p>
+    </div>
+    <div class="play">
+      <a class="play" href="./game.html">Play!</a>
+    </div>
+    
+  </main>
 </body>
 </html>
